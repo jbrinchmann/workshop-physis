@@ -97,6 +97,15 @@ TensorFlow. Keras is a high-level interface (and can also use other
 libraries, [Theano](https://github.com/Theano/Theano) and
 [CNTK](https://github.com/Microsoft/cntk), in addition to TensorFlow).
 
+In addition, since there was no time to prepare properly, we will look
+at another example created by John Wu that uses fastai. These
+notebooks can be found at 
+[John F. Wu's resources
+site](https://jwuphysics.github.io/resources/). We will look at the
+notebooks from the 2022 Astro Hack Week, but there are many other
+interesting resources there.
+
+
 There are many pages that detail the installation of these packages
 and what you need for them. A good one with a bias towards Windows is
 [this
@@ -112,7 +121,7 @@ not, you need to change this section a bit - use virtualenv instead of
 setting up a conda environment.  It is definitely better to keep your
 TensorFlow/keras etc setup out of your default Python work
 environment. Most of the packages are also installed with `pip` rather
-than conda, so what I use in this case is:
+than conda, so what I use in this case for tensorflow is:
 
 ```
 > conda create -n tensorflow pip
@@ -128,6 +137,16 @@ your default conda environment!  Check that your prompt says
 <...>
 [tensorflow] > 
 ```
+
+For fastai I can use conda throughout (well, I use mamba, but it is
+exactly the same):
+```
+mamba create -n fastai jupyter matplotlib astropy numpy scikit-learn
+seaborn fastai
+```
+creates an environment `fastai` that you can use. Nothing more needed
+for fastai, but for tensorflow we still need some steps:
+
 
 
 ### Install tensorflow and keras
