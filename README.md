@@ -6,6 +6,17 @@ the procedure below is not double-checked now but it did work in
 February 2024.
 
 
+## Slides
+
+There was not enough time to present even a fraction of the slides
+prepared, so here they are for your perusal:
+[Slides (note:380Mb!)](https://www.dropbox.com/scl/fi/eacadq12e8p9mymto370v/workshop.pdf?rlkey=jtvabce3y71uxt47z8j65y06v&dl=0).
+
+The file is fairly large because of the big images in it. If you are
+happy to skip the Euclid images, then [this version](https://www.dropbox.com/scl/fi/gdupjp9madbg0iqd271ii/workshop-noimages.pdf?rlkey=536u2sbkadmzj1nhs2s0agl48&dl=0)
+is only 46Mb.
+
+
 ## Software you need for the workshop
 
 The workshop will make use of python, and for this you need a recent
